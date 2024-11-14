@@ -16,7 +16,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Fetch Github Repository
-                git branch: 'master', url: 'https://github.com/Smitkhobragade/Honors-VII-sem.git'
+                git branch: 'main', url: 'https://github.com/Smitkhobragade/Honors-VII-sem.git'
             }
         }
         
